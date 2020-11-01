@@ -1,0 +1,4 @@
+verilog work "D_74L138.vf"
+verilog work "LampCtrl.vf"
+verilog work "LampCtrl_sim.v"
+verilog work "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v"

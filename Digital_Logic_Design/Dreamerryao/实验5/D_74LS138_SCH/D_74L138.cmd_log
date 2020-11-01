@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/ISEpro/D_74LS138_SCH/D_74L138.xst" -ofn "D:/ISEpro/D_74LS138_SCH/D_74L138.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74L138_drc.vf -w D:/ISEpro/D_74LS138_SCH/D_74L138.sch 
+sch2sym -intstyle ise -family kintex7 -refsym D_74L138 D:/ISEpro/D_74LS138_SCH/D_74L138.sch D:/ISEpro/D_74LS138_SCH/D_74L138.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 D_74L138.ngc D_74L138.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o D_74L138_map.ncd D_74L138.ngd D_74L138.pcf 
+par -w -intstyle ise -ol high -mt off D_74L138_map.ncd D_74L138.ncd D_74L138.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml D_74L138.twx D_74L138.ncd -o D_74L138.twr D_74L138.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o D_74L138_map.ncd D_74L138.ngd D_74L138.pcf 
+par -w -intstyle ise -ol high -mt off D_74L138_map.ncd D_74L138.ncd D_74L138.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml D_74L138.twx D_74L138.ncd -o D_74L138.twr D_74L138.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o D_74L138_map.ncd D_74L138.ngd D_74L138.pcf 

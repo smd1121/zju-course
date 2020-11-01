@@ -1,0 +1,12 @@
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138.vf -w D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+xst -intstyle ise -ifn "D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.xst" -ofn "D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+sch2sym -intstyle ise -family kintex7 -refsym D_74LS138 D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch D:/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sym 
+sch2sym -intstyle ise -family kintex7 -refsym D_74LS138 G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sym 
+xst -intstyle ise -ifn "G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.xst" -ofn "G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 
+sch2sym -intstyle ise -family kintex7 -refsym D_74LS138 G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog D_74LS138_drc.vf -w G:/Logic/SaltyfishXuan/D_74LS138_SCH/D_74LS138.sch 

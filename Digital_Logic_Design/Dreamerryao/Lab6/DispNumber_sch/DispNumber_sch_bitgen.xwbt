@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\isepro\DispNumber_sch\DispNumber_sch.ncd
+OUTFILE=D:\isepro\DispNumber_sch\DispNumber_sch.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=D:\isepro\DispNumber_sch
+LICENSE=WebPack
+USER_INFO=__0_0_0

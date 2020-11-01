@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\isepro\ScoreBoard\top.ncd
+OUTFILE=D:\isepro\ScoreBoard\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=D:\isepro\ScoreBoard
+LICENSE=WebPack
+USER_INFO=__0_0_0

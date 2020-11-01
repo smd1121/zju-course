@@ -1,0 +1,28 @@
+Command line:
+   MyMC14495_MyMC14495_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50593
+
+Wed Oct 23 19:44:13 2019
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5182.13 Meg
+
+ Total Signals          : 222
+ Total Nets             : 59
+ Total Signal Drivers   : 51
+ Total Blocks           : 43
+ Total Primitive Blocks : 41
+ Total Processes        : 53
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 177
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 5182.13 Meg
+
+Wed Oct 23 19:50:08 2019
+

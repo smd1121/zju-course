@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/SaltyfishXuan/LampCtrl_HDL/LampCtrl.xst" -ofn "D:/SaltyfishXuan/LampCtrl_HDL/LampCtrl.syr" 
+xst -intstyle ise -ifn "D:/SaltyfishXuan/LampCtrl_HDL/LampCtrl.xst" -ofn "D:/SaltyfishXuan/LampCtrl_HDL/LampCtrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 LampCtrl.ngc LampCtrl.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 LampCtrl.ngc LampCtrl.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LampCtrl_map.ncd LampCtrl.ngd LampCtrl.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LampCtrl_map.ncd LampCtrl.ngd LampCtrl.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LampCtrl_map.ncd LampCtrl.ngd LampCtrl.pcf 
+par -w -intstyle ise -ol high -mt off LampCtrl_map.ncd LampCtrl.ncd LampCtrl.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LampCtrl.twx LampCtrl.ncd -o LampCtrl.twr LampCtrl.pcf 

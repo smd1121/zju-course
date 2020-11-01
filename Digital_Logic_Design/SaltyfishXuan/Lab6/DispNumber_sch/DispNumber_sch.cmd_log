@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family kintex7 -verilog DispNumber_sch_drc.vf -w G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.sch 
+xst -intstyle ise -ifn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.xst" -ofn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.syr" 
+xst -intstyle ise -ifn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.xst" -ofn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.syr" 
+xst -intstyle ise -ifn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.xst" -ofn "G:/Logic/SaltyfishXuan/DispNumber_sch/DispNumber_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 DispNumber_sch.ngc DispNumber_sch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-1 DispNumber_sch.ngc DispNumber_sch.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DispNumber_sch_map.ncd DispNumber_sch.ngd DispNumber_sch.pcf 
+par -w -intstyle ise -ol high -mt off DispNumber_sch_map.ncd DispNumber_sch.ncd DispNumber_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DispNumber_sch.twx DispNumber_sch.ncd -o DispNumber_sch.twr DispNumber_sch.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f DispNumber_sch.ut DispNumber_sch.ncd 

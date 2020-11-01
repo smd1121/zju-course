@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w G:/Logic/SaltyfishXuan/MyMC14495/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 G:/Logic/SaltyfishXuan/MyMC14495/MyMC14495.sch G:/Logic/SaltyfishXuan/MyMC14495/MyMC14495.sym 

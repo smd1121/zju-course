@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 16 19:08:57 2019
+
+drc -z D_74LS138_Test.ncd D_74LS138_Test.pcf
+
+DRC detected 0 errors and 0 warnings.
