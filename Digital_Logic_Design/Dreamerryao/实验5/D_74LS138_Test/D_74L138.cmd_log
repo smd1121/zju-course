@@ -1,5 +1,0 @@
-vhdtdtfi -prj D_74LS138_Test -o D:/ISEpro/D_74LS138_Test/D_74L138.tfi -module D_74L138 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work D_74L138.vf 
-vhdtdtfi -prj D_74LS138_Test -o D:/ISEpro/D_74LS138_Test/D_74L138.tfi -module D_74L138 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work D_74L138.vf 
-vhdtdtfi -prj D_74LS138_Test -o D:/ISEpro/D_74LS138_Test/D_74L138.tfi -module D_74L138 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work D_74L138.vf 
-vhdtdtfi -prj D_74LS138_Test -o D:/ISEpro/D_74LS138_Test/D_74L138.tfi -module D_74L138 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work D_74L138.vf 
-vhdtdtfi -prj D_74LS138_Test -o D:/isepro/D_74LS138_Test/D_74L138.tfi -module D_74L138 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work D_74L138.vf 

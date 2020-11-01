@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=D:\isepro\D_74LS138_Test\D_74LS138_Test.ncd
-OUTFILE=D:\isepro\D_74LS138_Test\D_74LS138_Test.bit
-FAMILY=Kintex7
-PART=xc7k160t-1ffg676
-WORKINGDIR=D:\isepro\D_74LS138_Test
-LICENSE=WebPack
-USER_INFO=__0_0_0
