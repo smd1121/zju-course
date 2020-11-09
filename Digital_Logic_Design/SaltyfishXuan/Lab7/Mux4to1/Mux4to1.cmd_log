@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family kintex7 -refsym Mux4to1 G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sch G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Mux4to1_drc.vf -w G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Mux4to1_drc.vf -w G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Mux4to1 G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sch G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Mux4to1 G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sch G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.sym 
+xst -intstyle ise -ifn "G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.xst" -ofn "G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1/Mux4to1.syr" 
