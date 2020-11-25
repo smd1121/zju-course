@@ -101,6 +101,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1604908012" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1604908012">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1604909844" xil_pn:in_ck="-1553224436044848912" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4229955344753694712" xil_pn:start_ts="1604909841">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -160,11 +161,9 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1604909926" xil_pn:in_ck="-4232440752806860839" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="1307078288329540827" xil_pn:start_ts="1604909887">
+    <transform xil_pn:end_ts="1605858016" xil_pn:in_ck="-4232440752806860839" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="1307078288329540827" xil_pn:start_ts="1605857985">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ScoreBoard.pcf"/>
       <outfile xil_pn:name="ScoreBoard_map.map"/>
       <outfile xil_pn:name="ScoreBoard_map.mrp"/>
@@ -178,6 +177,8 @@
     <transform xil_pn:end_ts="1604909972" xil_pn:in_ck="245704916865547122" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8808472733522092617" xil_pn:start_ts="1604909926">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ScoreBoard.ncd"/>
       <outfile xil_pn:name="ScoreBoard.pad"/>
       <outfile xil_pn:name="ScoreBoard.par"/>
@@ -189,9 +190,10 @@
       <outfile xil_pn:name="ScoreBoard_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1604910149" xil_pn:in_ck="-1553224436044854361" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1604910083">
+    <transform xil_pn:end_ts="1605857972" xil_pn:in_ck="-1553224436044854361" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1605857929">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ScoreBoard.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="scoreboard.bgn"/>
@@ -204,10 +206,14 @@
     <transform xil_pn:end_ts="1604910228" xil_pn:in_ck="7297461356975631793" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="-5505904082297326742" xil_pn:start_ts="1604910227">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1604909972" xil_pn:in_ck="-4232440752806860971" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1604909955">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ScoreBoard.twr"/>
       <outfile xil_pn:name="ScoreBoard.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

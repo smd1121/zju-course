@@ -1,0 +1,25 @@
+Running: D:\Software\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder4b_Adder4b_sch_tb_isim_beh.exe -prj F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder4b_Adder4b_sch_tb_beh.prj work.Adder4b_Adder4b_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder1b.vf" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder4b.vf" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder4b_sim.v" into library work
+Analyzing Verilog file "D:/Software/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module XOR2
+Compiling module AND2
+Compiling module OR3
+Compiling module Adder1b_MUSER_Adder4b
+Compiling module Adder4b
+Compiling module Adder4b_Adder4b_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\Adder4b_Adder4b_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 Verilog Units
+Built simulation executable F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Adder4b_Adder4b_sch_tb_isim_beh.exe
+Fuse Memory Usage: 26996 KB
+Fuse CPU Usage: 312 ms

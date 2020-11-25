@@ -6,3 +6,5 @@ map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off ScoreBoard_map.ncd ScoreBoard.ncd ScoreBoard.pcf 
 trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ScoreBoard.twx ScoreBoard.ncd -o ScoreBoard.twr ScoreBoard.pcf -ucf K7.ucf 
 bitgen -intstyle ise -f ScoreBoard.ut ScoreBoard.ncd 
+bitgen -intstyle ise -f ScoreBoard.ut ScoreBoard.ncd 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ScoreBoard_map.ncd ScoreBoard.ngd ScoreBoard.pcf 

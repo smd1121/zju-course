@@ -8,8 +8,5 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1b4_sch/Mux4to1b4_sim.v&quot; into library work</arg>
-</msg>
-
 </messages>
 

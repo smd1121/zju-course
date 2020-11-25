@@ -8,5 +8,23 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/CreateNumber.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/Mux4to1.vf&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/Mux4to1b4.vf&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/MyMC14495.vf&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/clkdiv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/pbdebounce.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

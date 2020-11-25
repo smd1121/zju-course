@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-09T15:01:21</DateModified>
+  <DateModified>2020-11-20T13:16:40</DateModified>
   <ModuleName>Mux4to1b4</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1b4_sch/iseconfig/Mux4to1b4.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>G:/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1b4_sch</ImplementationReportsDirectory>
+  <SavedFilePath>F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1b4_sch/iseconfig/Mux4to1b4.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab7/Mux4to1b4_sch\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-09T15:01:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

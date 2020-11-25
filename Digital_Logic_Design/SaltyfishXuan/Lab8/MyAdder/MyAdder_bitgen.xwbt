@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\Lab8\MyAdder\MyAdder.ncd
+OUTFILE=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\Lab8\MyAdder\MyAdder.bit
+FAMILY=Kintex7
+PART=xc7k160t-3fbg676
+WORKINGDIR=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\Lab8\MyAdder
+LICENSE=WebPack
+USER_INFO=__0_0_0
