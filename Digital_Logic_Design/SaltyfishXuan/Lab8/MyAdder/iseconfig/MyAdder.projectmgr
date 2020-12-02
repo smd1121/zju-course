@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>CN - CreateNumber (F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/CreateNumber.v)</SelectedItem>
+         <SelectedItem>MC14495 - MyMC14495 (F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/MyMC14495.vf)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000148000000020000000000000000000000000200000064ffffffff000000810000000300000002000001480000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>CN - CreateNumber (F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/CreateNumber.v)</CurrentItem>
+      <CurrentItem>MC14495 - MyMC14495 (F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/MyMC14495.vf)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -139,12 +139,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

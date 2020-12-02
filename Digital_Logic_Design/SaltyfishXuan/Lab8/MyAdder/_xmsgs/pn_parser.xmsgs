@@ -8,25 +8,25 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/CreateNumber.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/CreateNumber.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Mux4to1.vf&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/Mux4to1.vf&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/Mux4to1b4.vf&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/Mux4to1b4.vf&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/MyAdder.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/MyAdder.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/MyMC14495.vf&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/MyMC14495.vf&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/clkdiv.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/clkdiv.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/Lab8/MyAdder/pbdebounce.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/GitFiles/zju-course/zju-course/Digital_Logic_Design/SaltyfishXuan/Lab8/MyAdder/pbdebounce.v&quot; into library work</arg>
 </msg>
 
 </messages>
