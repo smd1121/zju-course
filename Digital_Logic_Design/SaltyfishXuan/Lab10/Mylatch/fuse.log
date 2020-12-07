@@ -1,0 +1,21 @@
+Running: D:\Software\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/zbgg/isepro/isepro/lab10/Mylatch/D_FLIPFLOP_D_FLIPFLOP_sch_tb_isim_beh.exe -prj F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/zbgg/isepro/isepro/lab10/Mylatch/D_FLIPFLOP_D_FLIPFLOP_sch_tb_beh.prj work.D_FLIPFLOP_D_FLIPFLOP_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/zbgg/isepro/isepro/lab10/Mylatch/D_FLIPFLOP.vf" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/zbgg/isepro/isepro/lab10/Mylatch/D_TEST.v" into library work
+Analyzing Verilog file "D:/Software/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module NAND3
+Compiling module D_FLIPFLOP
+Compiling module D_FLIPFLOP_D_FLIPFLOP_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\D_FLIPFLOP_D_FLIPFLOP_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 4 Verilog Units
+Built simulation executable F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/zbgg/isepro/isepro/lab10/Mylatch/D_FLIPFLOP_D_FLIPFLOP_sch_tb_isim_beh.exe
+Fuse Memory Usage: 27760 KB
+Fuse CPU Usage: 265 ms
