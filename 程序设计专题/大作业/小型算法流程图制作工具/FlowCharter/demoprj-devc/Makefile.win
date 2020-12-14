@@ -1,0 +1,78 @@
+# Project: FlowCharter
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = output/demo_private.res
+OBJ      = output/exceptio.o output/genlib.o output/graphics.o output/random.o output/simpio.o output/strlib.o output/imgui.o output/Main.o output/shape.o output/buttons.o output/arrow.o output/mouseEvent.o output/lexcialAnalisis.o output/variables.o output/charAndKeyEvent.o output/runner.o $(RES)
+LINKOBJ  = output/exceptio.o output/genlib.o output/graphics.o output/random.o output/simpio.o output/strlib.o output/imgui.o output/Main.o output/shape.o output/buttons.o output/arrow.o output/mouseEvent.o output/lexcialAnalisis.o output/variables.o output/charAndKeyEvent.o output/runner.o $(RES)
+LIBS     = -L"D:/Software/Dev-Cpp/MinGW32/lib" -L"D:/Software/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -mwindows -lwinmm  -mwindows
+INCS     = -I"D:/Software/Dev-Cpp/MinGW32/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include" -I"../libgraphics" -I"../simpleGUI"
+CXXINCS  = -I"D:/Software/Dev-Cpp/MinGW32/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -I"../libgraphics" -I"../simpleGUI"
+BIN      = output/demo.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+output/exceptio.o: ../libgraphics/exceptio.c
+	$(CC) -c ../libgraphics/exceptio.c -o output/exceptio.o $(CFLAGS)
+
+output/genlib.o: ../libgraphics/genlib.c
+	$(CC) -c ../libgraphics/genlib.c -o output/genlib.o $(CFLAGS)
+
+output/graphics.o: ../libgraphics/graphics.c
+	$(CC) -c ../libgraphics/graphics.c -o output/graphics.o $(CFLAGS)
+
+output/random.o: ../libgraphics/random.c
+	$(CC) -c ../libgraphics/random.c -o output/random.o $(CFLAGS)
+
+output/simpio.o: ../libgraphics/simpio.c
+	$(CC) -c ../libgraphics/simpio.c -o output/simpio.o $(CFLAGS)
+
+output/strlib.o: ../libgraphics/strlib.c
+	$(CC) -c ../libgraphics/strlib.c -o output/strlib.o $(CFLAGS)
+
+output/imgui.o: ../simpleGUI/imgui.c
+	$(CC) -c ../simpleGUI/imgui.c -o output/imgui.o $(CFLAGS)
+
+output/Main.o: ../appcode/Main.c
+	$(CC) -c ../appcode/Main.c -o output/Main.o $(CFLAGS)
+
+output/shape.o: ../appcode/shape.c
+	$(CC) -c ../appcode/shape.c -o output/shape.o $(CFLAGS)
+
+output/buttons.o: ../appcode/buttons.c
+	$(CC) -c ../appcode/buttons.c -o output/buttons.o $(CFLAGS)
+
+output/arrow.o: ../appcode/arrow.c
+	$(CC) -c ../appcode/arrow.c -o output/arrow.o $(CFLAGS)
+
+output/mouseEvent.o: ../appcode/mouseEvent.c
+	$(CC) -c ../appcode/mouseEvent.c -o output/mouseEvent.o $(CFLAGS)
+
+output/lexcialAnalisis.o: ../appcode/lexcialAnalisis.c
+	$(CC) -c ../appcode/lexcialAnalisis.c -o output/lexcialAnalisis.o $(CFLAGS)
+
+output/variables.o: ../appcode/variables.c
+	$(CC) -c ../appcode/variables.c -o output/variables.o $(CFLAGS)
+
+output/charAndKeyEvent.o: ../appcode/charAndKeyEvent.c
+	$(CC) -c ../appcode/charAndKeyEvent.c -o output/charAndKeyEvent.o $(CFLAGS)
+
+output/runner.o: ../appcode/runner.c
+	$(CC) -c ../appcode/runner.c -o output/runner.o $(CFLAGS)
+
+output/demo_private.res: demo_private.rc 
+	$(WINDRES) -i demo_private.rc --input-format=rc -o output/demo_private.res -O coff 
+
