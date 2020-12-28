@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=F:\GitFiles\zju-course\zju-course\Digital_Logic_Design\SaltyfishXuan\Lab7\ScoreBoard\ScoreBoard.ncd
-OUTFILE=F:\GitFiles\zju-course\zju-course\Digital_Logic_Design\SaltyfishXuan\Lab7\ScoreBoard\ScoreBoard.bit
-FAMILY=Kintex7
-PART=xc7k160t-1ffg676
-WORKINGDIR=F:\GitFiles\zju-course\zju-course\Digital_Logic_Design\SaltyfishXuan\Lab7\ScoreBoard
-LICENSE=WebPack
-USER_INFO=__0_0_0

@@ -1,3 +1,0 @@
-xst -intstyle ise -ifn "G:/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/CreateNumber.xst" -ofn "G:/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/CreateNumber.syr" 
-vhdtdtfi -lib work G:/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/CreateNumber.v -lang verilog -prj ScoreBoard -o CreateNumber.spl -module CreateNumber -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 CreateNumber.spl G:/Digital_Logic_Design/SaltyfishXuan/Lab7/ScoreBoard/CreateNumber.sym 
