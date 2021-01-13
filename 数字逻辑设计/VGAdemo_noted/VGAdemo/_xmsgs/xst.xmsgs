@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v" Line 55: Port <arg fmt="%s" index="1">dbg_keyLine</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v" Line 59: Port <arg fmt="%s" index="1">segment</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v" Line 76: Port <arg fmt="%s" index="1">rdn</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v</arg>&quot; line <arg fmt="%s" index="2">55</arg>: Output port &lt;<arg fmt="%s" index="3">dbg_keyLine</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">k0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">segment</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">segDevice</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">anode</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">segDevice</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">rdn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">v0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">U1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">segDevice</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_anode</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_segment</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">x_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">x_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">y_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">y_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+</messages>

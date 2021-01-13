@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.ncd
+OUTFILE=C:\Users\xtlys\Documents\ISE_proj\VGAdemo\Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=C:\Users\xtlys\Documents\ISE_proj\VGAdemo
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661
