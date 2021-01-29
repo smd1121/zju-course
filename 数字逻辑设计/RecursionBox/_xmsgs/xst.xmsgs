@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 75: Port <arg fmt="%s" index="1">dbg_keyLine</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 82: Port <arg fmt="%s" index="1">segment</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 97: Port <arg fmt="%s" index="1">rdn</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 551: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 552: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 557: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 576: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 121: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 126: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\LevelRef.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">LevelRef</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 136: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 147: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 168: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 209: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 223: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 230: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 248: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 262: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 269: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 287: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 301: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 308: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 326: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 340: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 347: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 378: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 392: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 399: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 417: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 431: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 438: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 456: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 470: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 477: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 495: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 509: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 516: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 541: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 542: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 545: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 546: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 550: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\BeanRef.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">BeanRef</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\MapRef.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">MapRef</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 556: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 563: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 564: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 567: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Assignment to <arg fmt="%s" index="1">innerTyOut</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 574: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 575: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\Lvpic.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">Lvpic</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 551: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 552: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 557: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 576: Input port <arg fmt="%s" index="1">wea[0]</arg> is not connected on this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">dbg_keyLine</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">k0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v</arg>&quot; line <arg fmt="%s" index="2">82</arg>: Output port &lt;<arg fmt="%s" index="3">segment</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">segDevice</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v</arg>&quot; line <arg fmt="%s" index="2">82</arg>: Output port &lt;<arg fmt="%s" index="3">anode</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">segDevice</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v</arg>&quot; line <arg fmt="%s" index="2">97</arg>: Output port &lt;<arg fmt="%s" index="3">rdn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">v0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">douta</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">innerTyRef</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">U1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">segDevice</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">key_break</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">k1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">data_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">k1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_anode</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_segment</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">k1/data_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">k1/key_break</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>

@@ -1,0 +1,111 @@
+Running: D:\Software\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_isim_beh.exe -prj F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_beh.prj work.Debug1 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/SegmentDecoder.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ShiftReg.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Seg7Remap.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Seg7Decode.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/AntiJitter.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/vgac.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Seg7Device.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ps2.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Keypad.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ipcore_dir/MapRef.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ipcore_dir/Lvpic.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ipcore_dir/LevelRef.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/ipcore_dir/BeanRef.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" into library work
+Analyzing Verilog file "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" into library work
+Analyzing Verilog file "D:/Software/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" Line 63: Port ps2_clk is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 75: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 82: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 97: Port rdn is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 127: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 128: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 129: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 130: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 137: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 138: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 139: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 140: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 148: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 149: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 150: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 151: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 152: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 153: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 154: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 155: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 156: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 157: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 158: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 159: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 551: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 552: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 557: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 568: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 576: Port wea is not connected to this instance
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" Line 69: Size mismatch in connection of port <debugaddr>. Formal port size is 10-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" Line 72: Size mismatch in connection of port <debugvgad>. Formal port size is 12-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 127: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 128: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 129: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 130: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 137: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 138: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 139: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 140: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 148: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 149: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 150: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 151: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 152: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 153: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 154: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 155: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 156: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 157: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 158: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Top.v" Line 159: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module AntiJitter_copy1
+Compiling module AntiJitter(WIDTH=4)
+Compiling module Keypad
+Compiling module SegmentDecoder
+Compiling module Seg7Decode
+Compiling module Seg7Remap
+Compiling module ShiftReg(WIDTH=64)
+Compiling module Seg7Device
+Compiling module vgac
+Compiling module ps2
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module LevelRef
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module BeanRef
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module MapRef
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module Lvpic
+Compiling module ShiftReg
+Compiling module Top_default
+Compiling module Debug1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\Debug1_isim_beh.exe.sim\libPortability.dll".
+Compiled 30 Verilog Units
+Built simulation executable F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_isim_beh.exe
+Fuse Memory Usage: 35848 KB
+Fuse CPU Usage: 1062 ms

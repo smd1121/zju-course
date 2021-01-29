@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_isim_beh.exe" -prj "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_beh.prj" "work.Debug1" "work.glbl" 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.ncd
+OUTFILE=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox
+LICENSE=WebPack
+USER_INFO=__0_0_0

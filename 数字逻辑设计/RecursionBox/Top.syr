@@ -1,0 +1,1440 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2L-ffg676
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\SegmentDecoder.v" into library work
+Parsing module <SegmentDecoder>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ShiftReg.v" into library work
+Parsing module <ShiftReg>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Remap.v" into library work
+Parsing module <Seg7Remap>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Decode.v" into library work
+Parsing module <Seg7Decode>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\AntiJitter.v" into library work
+Parsing module <AntiJitter>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\vgac.v" into library work
+Parsing module <vgac>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Device.v" into library work
+Parsing module <Seg7Device>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ps2.v" into library work
+Parsing module <ps2>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Keypad.v" into library work
+Parsing module <Keypad>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\MapRef.v" into library work
+Parsing module <MapRef>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\Lvpic.v" into library work
+Parsing module <Lvpic>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\LevelRef.v" into library work
+Parsing module <LevelRef>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\BeanRef.v" into library work
+Parsing module <BeanRef>.
+Analyzing Verilog file "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" into library work
+Parsing module <Top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 75: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 82: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 97: Port rdn is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 551: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 552: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 557: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 576: Port wea is not connected to this instance
+
+Elaborating module <Top>.
+
+Elaborating module <AntiJitter(WIDTH=4)>.
+
+Elaborating module <Keypad>.
+
+Elaborating module <Seg7Device>.
+
+Elaborating module <Seg7Decode>.
+
+Elaborating module <SegmentDecoder>.
+
+Elaborating module <Seg7Remap>.
+
+Elaborating module <ShiftReg(WIDTH=64)>.
+
+Elaborating module <vgac>.
+
+Elaborating module <ps2>.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 120: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 121: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 126: Result of 14-bit expression is truncated to fit in 10-bit target.
+
+Elaborating module <LevelRef>.
+WARNING:HDLCompiler:1499 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\LevelRef.v" Line 39: Empty module <LevelRef> remains a black box.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 136: Result of 14-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 147: Result of 12-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 168: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 209: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 223: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 230: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 248: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 262: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 269: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 287: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 301: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 308: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 326: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 340: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 347: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 378: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 392: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 399: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 417: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 431: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 438: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 456: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 470: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 477: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 495: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 509: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 516: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 541: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 542: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 545: Result of 10-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 546: Result of 10-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 550: Result of 17-bit expression is truncated to fit in 14-bit target.
+
+Elaborating module <BeanRef>.
+WARNING:HDLCompiler:1499 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\BeanRef.v" Line 39: Empty module <BeanRef> remains a black box.
+
+Elaborating module <MapRef>.
+WARNING:HDLCompiler:1499 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\MapRef.v" Line 39: Empty module <MapRef> remains a black box.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 556: Result of 14-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 563: Result of 7-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 564: Result of 7-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 567: Result of 14-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:1127 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Assignment to innerTyOut ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 574: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 575: Result of 16-bit expression is truncated to fit in 14-bit target.
+
+Elaborating module <Lvpic>.
+WARNING:HDLCompiler:1499 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ipcore_dir\Lvpic.v" Line 39: Empty module <Lvpic> remains a black box.
+
+Elaborating module <ShiftReg(WIDTH=16)>.
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 127: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 128: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 129: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 130: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 137: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 138: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 139: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 140: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 148: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 149: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 150: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 151: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 152: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 153: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 154: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 155: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 156: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 157: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 158: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 159: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 551: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 552: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 557: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 568: Input port wea[0] is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" Line 576: Input port wea[0] is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Top>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v".
+        OriOffset = 1
+        LevelOffset = 12
+        WholeLevel = 133
+        le = 117
+        re = 522
+        ue = 37
+        de = 442
+        blkSz = 45
+        innerSz = 5
+INFO:Xst:3210 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" line 75: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" line 82: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" line 82: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" line 97: Output port <rdn> of the instance <v0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Top.v" line 568: Output port <douta> of the instance <innerTyRef> is unconnected or connected to loadless signal.
+    Found 4-bit register for signal <countDown>.
+    Found 1-bit register for signal <wasWait>.
+    Found 1-bit register for signal <isWait>.
+    Found 2-bit register for signal <lastDir>.
+    Found 1-bit register for signal <isFirstTime>.
+    Found 4-bit register for signal <lx>.
+    Found 4-bit register for signal <ly>.
+    Found 4-bit register for signal <lbx>.
+    Found 4-bit register for signal <lby>.
+    Found 4-bit register for signal <x>.
+    Found 4-bit register for signal <y>.
+    Found 4-bit register for signal <bx>.
+    Found 4-bit register for signal <by>.
+    Found 3-bit register for signal <lastTimeLevel>.
+    Found 1-bit register for signal <wasReady>.
+    Found 3-bit register for signal <picInd>.
+    Found 12-bit register for signal <vga_data>.
+    Found 32-bit register for signal <clkdiv>.
+    Found 5-bit subtractor for signal <n0695[4:0]> created at line 244.
+    Found 5-bit subtractor for signal <n0763[4:0]> created at line 322.
+    Found 32-bit adder for signal <clkdiv[31]_GND_1_o_add_1_OUT> created at line 54.
+    Found 12-bit adder for signal <n1134[11:0]> created at line 126.
+    Found 13-bit adder for signal <n1138> created at line 126.
+    Found 13-bit adder for signal <n0601> created at line 126.
+    Found 10-bit adder for signal <addr[9]_GND_1_o_add_16_OUT> created at line 128.
+    Found 10-bit adder for signal <addr[9]_GND_1_o_add_18_OUT> created at line 130.
+    Found 13-bit adder for signal <n1148> created at line 136.
+    Found 13-bit adder for signal <n0606> created at line 136.
+    Found 10-bit adder for signal <baddr[9]_GND_1_o_add_25_OUT> created at line 138.
+    Found 10-bit adder for signal <baddr[9]_GND_1_o_add_27_OUT> created at line 140.
+    Found 11-bit adder for signal <n0619> created at line 147.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_30_OUT> created at line 149.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_31_OUT> created at line 150.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_32_OUT> created at line 151.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_33_OUT> created at line 152.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_34_OUT> created at line 153.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_35_OUT> created at line 154.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_36_OUT> created at line 155.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_37_OUT> created at line 156.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_38_OUT> created at line 157.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_39_OUT> created at line 158.
+    Found 10-bit adder for signal <initaddr[9]_GND_1_o_add_40_OUT> created at line 159.
+    Found 5-bit adder for signal <_n1423> created at line 205.
+    Found 4-bit adder for signal <x[3]_GND_1_o_add_142_OUT> created at line 262.
+    Found 5-bit adder for signal <_n1296> created at line 283.
+    Found 4-bit adder for signal <y[3]_GND_1_o_add_258_OUT> created at line 340.
+    Found 9-bit adder for signal <n0625> created at line 545.
+    Found 9-bit adder for signal <n0626> created at line 546.
+    Found 16-bit adder for signal <n1194> created at line 550.
+    Found 16-bit adder for signal <n0630> created at line 550.
+    Found 13-bit adder for signal <n1200> created at line 556.
+    Found 13-bit adder for signal <n0632> created at line 556.
+    Found 6-bit adder for signal <n0635> created at line 563.
+    Found 6-bit adder for signal <n0636> created at line 564.
+    Found 13-bit adder for signal <n1210> created at line 567.
+    Found 13-bit adder for signal <n0637> created at line 567.
+    Found 15-bit adder for signal <n1216> created at line 575.
+    Found 15-bit adder for signal <n0638> created at line 575.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_16_OUT<9:0>> created at line 127.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_18_OUT<9:0>> created at line 129.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_25_OUT<9:0>> created at line 137.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_27_OUT<9:0>> created at line 139.
+    Found 4-bit subtractor for signal <GND_1_o_GND_1_o_sub_44_OUT<3:0>> created at line 168.
+    Found 4-bit subtractor for signal <GND_1_o_GND_1_o_sub_85_OUT<3:0>> created at line 223.
+    Found 4-bit subtractor for signal <GND_1_o_GND_1_o_sub_201_OUT<3:0>> created at line 301.
+    Found 9-bit subtractor for signal <x_addr> created at line 537.
+    Found 9-bit subtractor for signal <y_addr> created at line 537.
+    Found 8x3-bit multiplier for signal <n1155> created at line 126.
+    Found 4x4-bit multiplier for signal <y[3]_PWR_1_o_MuLt_13_OUT> created at line 126.
+    Found 4x4-bit multiplier for signal <by[3]_PWR_1_o_MuLt_22_OUT> created at line 136.
+    Found 3x6-bit multiplier for signal <picInd[2]_PWR_1_o_MuLt_599_OUT> created at line 550.
+    Found 9x6-bit multiplier for signal <picInd[2]_PWR_1_o_MuLt_600_OUT> created at line 550.
+    Found 6x6-bit multiplier for signal <y_off[5]_PWR_1_o_MuLt_602_OUT> created at line 550.
+    Found 4x4-bit multiplier for signal <y_num[3]_PWR_1_o_MuLt_607_OUT> created at line 556.
+    Found 3x4-bit multiplier for signal <y_inner_num[2]_PWR_1_o_MuLt_618_OUT> created at line 567.
+    Found 2x6-bit multiplier for signal <iBoxPicInd[1]_PWR_1_o_MuLt_624_OUT> created at line 575.
+    Found 8x6-bit multiplier for signal <iBoxPicInd[1]_PWR_1_o_MuLt_625_OUT> created at line 575.
+    Found 4-bit comparator equal for signal <x[3]_xd[3]_equal_5_o> created at line 120
+    Found 4-bit comparator equal for signal <y[3]_yd[3]_equal_6_o> created at line 120
+    Found 4-bit comparator equal for signal <bx[3]_bxd[3]_equal_8_o> created at line 121
+    Found 4-bit comparator equal for signal <by[3]_byd[3]_equal_9_o> created at line 121
+    Found 3-bit comparator not equal for signal <n0053> created at line 181
+    Found 4-bit comparator equal for signal <y[3]_by[3]_equal_62_o> created at line 205
+    Found 32-bit comparator equal for signal <GND_1_o_GND_1_o_equal_119_o> created at line 244
+    Found 4-bit comparator equal for signal <x[3]_bx[3]_equal_176_o> created at line 283
+    Found 32-bit comparator equal for signal <GND_1_o_GND_1_o_equal_236_o> created at line 322
+    Found 9-bit comparator lessequal for signal <n0511> created at line 584
+    Found 9-bit comparator greater for signal <row_addr[8]_PWR_1_o_LessThan_632_o> created at line 584
+    Found 10-bit comparator lessequal for signal <n0515> created at line 584
+    Found 10-bit comparator greater for signal <col_addr[9]_PWR_1_o_LessThan_634_o> created at line 584
+    Found 4-bit comparator equal for signal <x_num[3]_x[3]_equal_635_o> created at line 585
+    Found 4-bit comparator equal for signal <y_num[3]_y[3]_equal_636_o> created at line 585
+    Found 4-bit comparator equal for signal <x_num[3]_bx[3]_equal_638_o> created at line 591
+    Found 4-bit comparator equal for signal <y_num[3]_by[3]_equal_639_o> created at line 591
+    Found 4-bit comparator equal for signal <GND_1_o_x[3]_equal_640_o> created at line 593
+    Found 4-bit comparator equal for signal <GND_1_o_y[3]_equal_641_o> created at line 593
+    Found 4-bit comparator equal for signal <GND_1_o_bx[3]_equal_647_o> created at line 602
+    Found 4-bit comparator equal for signal <GND_1_o_by[3]_equal_648_o> created at line 602
+    Found 5-bit comparator equal for signal <GND_1_o_GND_1_o_equal_178_o> created at line 283
+    Found 5-bit comparator equal for signal <GND_1_o_GND_1_o_equal_61_o> created at line 205
+    Summary:
+	inferred  10 Multiplier(s).
+	inferred  49 Adder/Subtractor(s).
+	inferred  92 D-type flip-flop(s).
+	inferred  23 Comparator(s).
+	inferred 771 Multiplexer(s).
+Unit <Top> synthesized.
+
+Synthesizing Unit <AntiJitter>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\AntiJitter.v".
+        WIDTH = 4
+    Found 4-bit register for signal <cnt>.
+    Found 1-bit register for signal <O>.
+    Found 4-bit subtractor for signal <cnt[3]_GND_2_o_sub_6_OUT> created at line 39.
+    Found 4-bit adder for signal <cnt[3]_GND_2_o_add_2_OUT> created at line 34.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 D-type flip-flop(s).
+Unit <AntiJitter> synthesized.
+
+Synthesizing Unit <Keypad>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Keypad.v".
+    Found 4-bit register for signal <keyLineX>.
+    Found 1-bit register for signal <state>.
+    Found 5-bit register for signal <keyLineY>.
+    Found 1-bit tristate buffer for signal <keyX<3>> created at line 29
+    Found 1-bit tristate buffer for signal <keyX<2>> created at line 29
+    Found 1-bit tristate buffer for signal <keyX<1>> created at line 29
+    Found 1-bit tristate buffer for signal <keyX<0>> created at line 29
+    Found 1-bit tristate buffer for signal <keyY<4>> created at line 30
+    Found 1-bit tristate buffer for signal <keyY<3>> created at line 30
+    Found 1-bit tristate buffer for signal <keyY<2>> created at line 30
+    Found 1-bit tristate buffer for signal <keyY<1>> created at line 30
+    Found 1-bit tristate buffer for signal <keyY<0>> created at line 30
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   9 Tristate(s).
+Unit <Keypad> synthesized.
+
+Synthesizing Unit <Seg7Device>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Device.v".
+    Found 4x4-bit Read Only RAM for signal <anode>
+    Found 8-bit 4-to-1 multiplexer for signal <segment> created at line 36.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <Seg7Device> synthesized.
+
+Synthesizing Unit <Seg7Decode>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Decode.v".
+    Summary:
+	no macro.
+Unit <Seg7Decode> synthesized.
+
+Synthesizing Unit <SegmentDecoder>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\SegmentDecoder.v".
+    Found 16x7-bit Read Only RAM for signal <segment>
+    Summary:
+	inferred   1 RAM(s).
+Unit <SegmentDecoder> synthesized.
+
+Synthesizing Unit <Seg7Remap>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Seg7Remap.v".
+    Summary:
+	no macro.
+Unit <Seg7Remap> synthesized.
+
+Synthesizing Unit <ShiftReg_1>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ShiftReg.v".
+        WIDTH = 64
+        DELAY = 12
+    Found 1-bit register for signal <oe>.
+    Found 12-bit register for signal <counter>.
+    Found 65-bit register for signal <shift>.
+    Found 12-bit adder for signal <counter[11]_GND_17_o_add_5_OUT> created at line 54.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <ShiftReg_1> synthesized.
+
+Synthesizing Unit <vgac>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\vgac.v".
+    Found 10-bit register for signal <v_count>.
+    Found 9-bit register for signal <row_addr>.
+    Found 10-bit register for signal <col_addr>.
+    Found 1-bit register for signal <rdn>.
+    Found 1-bit register for signal <hs>.
+    Found 1-bit register for signal <vs>.
+    Found 4-bit register for signal <r>.
+    Found 4-bit register for signal <g>.
+    Found 4-bit register for signal <b>.
+    Found 10-bit register for signal <h_count>.
+    Found 10-bit subtractor for signal <col> created at line 56.
+    Found 10-bit adder for signal <h_count[9]_GND_18_o_add_2_OUT> created at line 38.
+    Found 10-bit adder for signal <v_count[9]_GND_18_o_add_8_OUT> created at line 50.
+    Found 9-bit subtractor for signal <row<8:0>> created at line 55.
+    Found 10-bit comparator greater for signal <h_sync> created at line 57
+    Found 10-bit comparator greater for signal <v_sync> created at line 58
+    Found 10-bit comparator greater for signal <GND_18_o_h_count[9]_LessThan_17_o> created at line 59
+    Found 10-bit comparator greater for signal <h_count[9]_PWR_10_o_LessThan_18_o> created at line 60
+    Found 10-bit comparator greater for signal <GND_18_o_v_count[9]_LessThan_19_o> created at line 61
+    Found 10-bit comparator greater for signal <v_count[9]_PWR_10_o_LessThan_20_o> created at line 62
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <vgac> synthesized.
+
+Synthesizing Unit <ps2>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ps2.v".
+    Found 4-bit register for signal <cnt>.
+    Found 8-bit register for signal <data_in>.
+    Found 10-bit register for signal <data>.
+    Found 1-bit register for signal <ps2_clk_sign1>.
+    Found 1-bit register for signal <ps2_clk_sign2>.
+    Found 1-bit register for signal <ps2_clk_sign3>.
+    Found 1-bit register for signal <key_break>.
+    Found 1-bit register for signal <key_done>.
+    Found 1-bit register for signal <key_expand>.
+    Found 1-bit register for signal <ps2_clk_sign0>.
+    Found 1-bit register for signal <negedge_ps2_clk_shift>.
+    Found 4-bit adder for signal <cnt[3]_GND_19_o_add_1_OUT> created at line 56.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <ps2> synthesized.
+
+Synthesizing Unit <mod_9u_6u>.
+    Related source file is "".
+    Found 15-bit adder for signal <n0307> created at line 0.
+    Found 15-bit adder for signal <GND_23_o_b[5]_add_1_OUT> created at line 0.
+    Found 14-bit adder for signal <n0311> created at line 0.
+    Found 14-bit adder for signal <GND_23_o_b[5]_add_3_OUT> created at line 0.
+    Found 13-bit adder for signal <n0315> created at line 0.
+    Found 13-bit adder for signal <GND_23_o_b[5]_add_5_OUT> created at line 0.
+    Found 12-bit adder for signal <n0319> created at line 0.
+    Found 12-bit adder for signal <GND_23_o_b[5]_add_7_OUT> created at line 0.
+    Found 11-bit adder for signal <n0323> created at line 0.
+    Found 11-bit adder for signal <GND_23_o_b[5]_add_9_OUT> created at line 0.
+    Found 10-bit adder for signal <n0327> created at line 0.
+    Found 10-bit adder for signal <GND_23_o_b[5]_add_11_OUT> created at line 0.
+    Found 9-bit adder for signal <n0331> created at line 0.
+    Found 9-bit adder for signal <a[8]_b[5]_add_13_OUT> created at line 0.
+    Found 9-bit adder for signal <n0335> created at line 0.
+    Found 9-bit adder for signal <a[8]_GND_23_o_add_15_OUT> created at line 0.
+    Found 9-bit adder for signal <n0339> created at line 0.
+    Found 9-bit adder for signal <a[8]_GND_23_o_add_17_OUT> created at line 0.
+    Found 9-bit adder for signal <n0343> created at line 0.
+    Found 9-bit adder for signal <a[8]_GND_23_o_add_19_OUT> created at line 0.
+    Found 15-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 12-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Summary:
+	inferred  20 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+	inferred  82 Multiplexer(s).
+Unit <mod_9u_6u> synthesized.
+
+Synthesizing Unit <div_9u_6u>.
+    Related source file is "".
+    Found 15-bit adder for signal <n0307> created at line 0.
+    Found 15-bit adder for signal <GND_24_o_b[5]_add_1_OUT> created at line 0.
+    Found 14-bit adder for signal <n0311> created at line 0.
+    Found 14-bit adder for signal <GND_24_o_b[5]_add_3_OUT> created at line 0.
+    Found 13-bit adder for signal <n0315> created at line 0.
+    Found 13-bit adder for signal <GND_24_o_b[5]_add_5_OUT> created at line 0.
+    Found 12-bit adder for signal <n0319> created at line 0.
+    Found 12-bit adder for signal <GND_24_o_b[5]_add_7_OUT> created at line 0.
+    Found 11-bit adder for signal <n0323> created at line 0.
+    Found 11-bit adder for signal <GND_24_o_b[5]_add_9_OUT> created at line 0.
+    Found 10-bit adder for signal <n0327> created at line 0.
+    Found 10-bit adder for signal <GND_24_o_b[5]_add_11_OUT> created at line 0.
+    Found 9-bit adder for signal <n0331> created at line 0.
+    Found 9-bit adder for signal <a[8]_b[5]_add_13_OUT[8:0]> created at line 0.
+    Found 9-bit adder for signal <n0335> created at line 0.
+    Found 9-bit adder for signal <a[8]_GND_24_o_add_15_OUT[8:0]> created at line 0.
+    Found 9-bit adder for signal <n0339> created at line 0.
+    Found 9-bit adder for signal <a[8]_GND_24_o_add_17_OUT[8:0]> created at line 0.
+    Found 15-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 12-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Summary:
+	inferred  18 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+	inferred  57 Multiplexer(s).
+Unit <div_9u_6u> synthesized.
+
+Synthesizing Unit <mod_6u_3u>.
+    Related source file is "".
+    Found 9-bit adder for signal <n0157> created at line 0.
+    Found 9-bit adder for signal <GND_30_o_b[2]_add_1_OUT> created at line 0.
+    Found 8-bit adder for signal <n0161> created at line 0.
+    Found 8-bit adder for signal <GND_30_o_b[2]_add_3_OUT> created at line 0.
+    Found 7-bit adder for signal <n0165> created at line 0.
+    Found 7-bit adder for signal <GND_30_o_b[2]_add_5_OUT> created at line 0.
+    Found 6-bit adder for signal <n0169> created at line 0.
+    Found 6-bit adder for signal <a[5]_b[2]_add_7_OUT> created at line 0.
+    Found 6-bit adder for signal <n0173> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_30_o_add_9_OUT> created at line 0.
+    Found 6-bit adder for signal <n0177> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_30_o_add_11_OUT> created at line 0.
+    Found 6-bit adder for signal <n0181> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_30_o_add_13_OUT> created at line 0.
+    Found 9-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  37 Multiplexer(s).
+Unit <mod_6u_3u> synthesized.
+
+Synthesizing Unit <div_6u_3u>.
+    Related source file is "".
+    Found 9-bit adder for signal <n0157> created at line 0.
+    Found 9-bit adder for signal <GND_31_o_b[2]_add_1_OUT> created at line 0.
+    Found 8-bit adder for signal <n0161> created at line 0.
+    Found 8-bit adder for signal <GND_31_o_b[2]_add_3_OUT> created at line 0.
+    Found 7-bit adder for signal <n0165> created at line 0.
+    Found 7-bit adder for signal <GND_31_o_b[2]_add_5_OUT> created at line 0.
+    Found 6-bit adder for signal <n0169> created at line 0.
+    Found 6-bit adder for signal <a[5]_b[2]_add_7_OUT[5:0]> created at line 0.
+    Found 6-bit adder for signal <n0173> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_31_o_add_9_OUT[5:0]> created at line 0.
+    Found 6-bit adder for signal <n0177> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_31_o_add_11_OUT[5:0]> created at line 0.
+    Found 9-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Summary:
+	inferred  12 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <div_6u_3u> synthesized.
+
+Synthesizing Unit <ShiftReg_2>.
+    Related source file is "F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\ShiftReg.v".
+        WIDTH = 16
+        DELAY = 12
+    Found 1-bit register for signal <oe>.
+    Found 12-bit register for signal <counter>.
+    Found 17-bit register for signal <shift>.
+    Found 12-bit adder for signal <counter[11]_GND_36_o_add_5_OUT> created at line 54.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <ShiftReg_2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 16x7-bit single-port Read Only RAM                    : 8
+ 4x4-bit single-port Read Only RAM                     : 1
+# Multipliers                                          : 10
+ 4x3-bit multiplier                                    : 1
+ 4x4-bit multiplier                                    : 3
+ 6x2-bit multiplier                                    : 1
+ 6x3-bit multiplier                                    : 1
+ 6x6-bit multiplier                                    : 1
+ 8x3-bit multiplier                                    : 1
+ 8x6-bit multiplier                                    : 1
+ 9x6-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 201
+ 10-bit adder                                          : 25
+ 10-bit subtractor                                     : 5
+ 11-bit adder                                          : 9
+ 12-bit adder                                          : 11
+ 13-bit adder                                          : 16
+ 14-bit adder                                          : 8
+ 15-bit adder                                          : 10
+ 16-bit adder                                          : 2
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 3
+ 4-bit addsub                                          : 17
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 2
+ 6-bit adder                                           : 30
+ 7-bit adder                                           : 8
+ 8-bit adder                                           : 8
+ 9-bit adder                                           : 38
+ 9-bit subtractor                                      : 3
+# Registers                                            : 82
+ 1-bit register                                        : 35
+ 10-bit register                                       : 4
+ 12-bit register                                       : 3
+ 17-bit register                                       : 1
+ 2-bit register                                        : 1
+ 3-bit register                                        : 2
+ 32-bit register                                       : 1
+ 4-bit register                                        : 31
+ 5-bit register                                        : 1
+ 65-bit register                                       : 1
+ 8-bit register                                        : 1
+ 9-bit register                                        : 1
+# Comparators                                          : 97
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 5
+ 11-bit comparator lessequal                           : 4
+ 12-bit comparator lessequal                           : 4
+ 13-bit comparator lessequal                           : 4
+ 14-bit comparator lessequal                           : 4
+ 15-bit comparator lessequal                           : 4
+ 3-bit comparator not equal                            : 1
+ 32-bit comparator equal                               : 2
+ 4-bit comparator equal                                : 14
+ 5-bit comparator equal                                : 2
+ 6-bit comparator lessequal                            : 16
+ 7-bit comparator lessequal                            : 4
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 1
+ 9-bit comparator lessequal                            : 21
+# Multiplexers                                         : 1172
+ 1-bit 2-to-1 multiplexer                              : 380
+ 10-bit 2-to-1 multiplexer                             : 1
+ 12-bit 2-to-1 multiplexer                             : 5
+ 17-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 762
+ 6-bit 2-to-1 multiplexer                              : 8
+ 65-bit 2-to-1 multiplexer                             : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 6
+# Tristates                                            : 9
+ 1-bit tristate buffer                                 : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/LevelRef.ngc>.
+Reading core <ipcore_dir/BeanRef.ngc>.
+Reading core <ipcore_dir/MapRef.ngc>.
+Reading core <ipcore_dir/Lvpic.ngc>.
+Loading core <LevelRef> for timing and area information for instance <leftRef>.
+Loading core <LevelRef> for timing and area information for instance <rightRef>.
+Loading core <LevelRef> for timing and area information for instance <upRef>.
+Loading core <LevelRef> for timing and area information for instance <downRef>.
+Loading core <LevelRef> for timing and area information for instance <bleftRef>.
+Loading core <LevelRef> for timing and area information for instance <brightRef>.
+Loading core <LevelRef> for timing and area information for instance <bupRef>.
+Loading core <LevelRef> for timing and area information for instance <bdownRef>.
+Loading core <LevelRef> for timing and area information for instance <initXi>.
+Loading core <LevelRef> for timing and area information for instance <initYi>.
+Loading core <LevelRef> for timing and area information for instance <initBxi>.
+Loading core <LevelRef> for timing and area information for instance <initByi>.
+Loading core <LevelRef> for timing and area information for instance <initXd>.
+Loading core <LevelRef> for timing and area information for instance <initYd>.
+Loading core <LevelRef> for timing and area information for instance <initBxd>.
+Loading core <LevelRef> for timing and area information for instance <initByd>.
+Loading core <LevelRef> for timing and area information for instance <initLi>.
+Loading core <LevelRef> for timing and area information for instance <initRi>.
+Loading core <LevelRef> for timing and area information for instance <initUi>.
+Loading core <LevelRef> for timing and area information for instance <initDI>.
+Loading core <BeanRef> for timing and area information for instance <beanRef>.
+Loading core <MapRef> for timing and area information for instance <mapRef>.
+Loading core <LevelRef> for timing and area information for instance <typeRef>.
+Loading core <LevelRef> for timing and area information for instance <innerTyRef>.
+Loading core <Lvpic> for timing and area information for instance <innerBoxRef>.
+WARNING:Xst:1290 - Hierarchical block <U1> is unconnected in block <segDevice>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <key_break> of sequential type is unconnected in block <k1>.
+WARNING:Xst:2677 - Node <data_8> of sequential type is unconnected in block <k1>.
+
+Synthesizing (advanced) Unit <AntiJitter>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <AntiJitter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Seg7Device>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anode> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <clkScan>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anode>         |          |
+    -----------------------------------------------------------------------
+Unit <Seg7Device> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SegmentDecoder>.
+INFO:Xst:3231 - The small RAM <Mram_segment> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <hex>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <segment>       |          |
+    -----------------------------------------------------------------------
+Unit <SegmentDecoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ShiftReg_1>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ShiftReg_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ShiftReg_2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <ShiftReg_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Top>.
+The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
+	Multiplier <Mmult_y_inner_num[2]_PWR_1_o_MuLt_618_OUT> in block <Top> and adder/subtractor <Madd_n0637_Madd> in block <Top> are combined into a MAC<Maddsub_y_inner_num[2]_PWR_1_o_MuLt_618_OUT>.
+	Multiplier <Mmult_y_num[3]_PWR_1_o_MuLt_607_OUT> in block <Top> and adder/subtractor <Madd_n0632_Madd> in block <Top> are combined into a MAC<Maddsub_y_num[3]_PWR_1_o_MuLt_607_OUT>.
+	Multiplier <Mmult_picInd[2]_PWR_1_o_MuLt_600_OUT> in block <Top> and adder/subtractor <Madd_n1194_Madd> in block <Top> are combined into a MAC<Maddsub_picInd[2]_PWR_1_o_MuLt_600_OUT>.
+	Multiplier <Mmult_y[3]_PWR_1_o_MuLt_13_OUT> in block <Top> and adder/subtractor <Madd_n0601_Madd> in block <Top> are combined into a MAC<Maddsub_y[3]_PWR_1_o_MuLt_13_OUT>.
+	Multiplier <Mmult_by[3]_PWR_1_o_MuLt_22_OUT> in block <Top> and adder/subtractor <Madd_n0606_Madd> in block <Top> are combined into a MAC<Maddsub_by[3]_PWR_1_o_MuLt_22_OUT>.
+	Multiplier <Mmult_iBoxPicInd[1]_PWR_1_o_MuLt_625_OUT> in block <Top> and adder/subtractor <Madd_n1216_Madd> in block <Top> are combined into a MAC<Maddsub_iBoxPicInd[1]_PWR_1_o_MuLt_625_OUT>.
+Unit <Top> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ps2>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <ps2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vgac>.
+The following registers are absorbed into counter <h_count>: 1 register on signal <h_count>.
+The following registers are absorbed into counter <v_count>: 1 register on signal <v_count>.
+Unit <vgac> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 9
+ 16x7-bit single-port distributed Read Only RAM        : 8
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# MACs                                                 : 6
+ 4x3-to-10-bit MAC                                     : 1
+ 4x4-to-10-bit MAC                                     : 3
+ 8x6-to-14-bit MAC                                     : 1
+ 9x6-to-14-bit MAC                                     : 1
+# Multipliers                                          : 4
+ 6x2-bit multiplier                                    : 1
+ 6x3-bit multiplier                                    : 1
+ 6x6-bit multiplier                                    : 1
+ 8x3-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 108
+ 10-bit adder                                          : 21
+ 10-bit subtractor                                     : 5
+ 14-bit adder                                          : 2
+ 3-bit adder                                           : 2
+ 3-bit adder carry in                                  : 2
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 2
+ 6-bit adder carry in                                  : 26
+ 9-bit adder carry in                                  : 36
+ 9-bit subtractor                                      : 3
+# Counters                                             : 23
+ 10-bit up counter                                     : 2
+ 12-bit up counter                                     : 2
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 17
+# Registers                                            : 231
+ Flip-Flops                                            : 231
+# Comparators                                          : 97
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 5
+ 11-bit comparator lessequal                           : 4
+ 12-bit comparator lessequal                           : 4
+ 13-bit comparator lessequal                           : 4
+ 14-bit comparator lessequal                           : 4
+ 15-bit comparator lessequal                           : 4
+ 3-bit comparator not equal                            : 1
+ 32-bit comparator equal                               : 2
+ 4-bit comparator equal                                : 14
+ 5-bit comparator equal                                : 2
+ 6-bit comparator lessequal                            : 16
+ 7-bit comparator lessequal                            : 4
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 1
+ 9-bit comparator lessequal                            : 21
+# Multiplexers                                         : 1250
+ 1-bit 2-to-1 multiplexer                              : 462
+ 12-bit 2-to-1 multiplexer                             : 5
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 761
+ 6-bit 2-to-1 multiplexer                              : 8
+ 8-bit 4-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <clkdiv_26> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_27> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_28> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_29> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_30> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_31> of sequential type is unconnected in block <Top>.
+
+Optimizing unit <Top> ...
+
+Optimizing unit <ps2> ...
+
+Optimizing unit <Seg7Device> ...
+
+Optimizing unit <ShiftReg_1> ...
+
+Optimizing unit <ShiftReg_2> ...
+WARNING:Xst:2677 - Node <clkdiv_16> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_17> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_18> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_19> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_20> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_21> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_22> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_23> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_24> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clkdiv_25> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <k1/data_8> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <k1/key_break> of sequential type is unconnected in block <Top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 1.
+FlipFlop v0/col_addr_0 has been replicated 3 time(s)
+FlipFlop v0/col_addr_1 has been replicated 4 time(s)
+FlipFlop v0/col_addr_2 has been replicated 2 time(s)
+FlipFlop v0/row_addr_0 has been replicated 3 time(s)
+FlipFlop v0/row_addr_1 has been replicated 3 time(s)
+FlipFlop v0/row_addr_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 377
+ Flip-Flops                                            : 377
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1447
+#      GND                         : 26
+#      INV                         : 33
+#      LUT1                        : 46
+#      LUT2                        : 106
+#      LUT3                        : 145
+#      LUT4                        : 141
+#      LUT5                        : 221
+#      LUT6                        : 544
+#      MUXCY                       : 75
+#      MUXF7                       : 14
+#      VCC                         : 26
+#      XORCY                       : 70
+# FlipFlops/Latches                : 383
+#      FD                          : 56
+#      FDC                         : 4
+#      FDCE                        : 33
+#      FDE                         : 231
+#      FDR                         : 54
+#      FDRE                        : 1
+#      FDS                         : 3
+#      FDSE                        : 1
+# RAMS                             : 40
+#      RAMB18E1                    : 25
+#      RAMB36E1                    : 15
+# Clock Buffers                    : 4
+#      BUFG                        : 3
+#      BUFGP                       : 1
+# IO Buffers                       : 51
+#      IBUF                        : 19
+#      IOBUF                       : 9
+#      OBUF                        : 23
+# DSPs                             : 15
+#      DSP48E1                     : 15
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-2l 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             383  out of  202800     0%  
+ Number of Slice LUTs:                 1236  out of  101400     1%  
+    Number used as Logic:              1236  out of  101400     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1289
+   Number with an unused Flip Flop:     906  out of   1289    70%  
+   Number with an unused LUT:            53  out of   1289     4%  
+   Number of fully used LUT-FF pairs:   330  out of   1289    25%  
+   Number of unique control sets:        65
+
+IO Utilization: 
+ Number of IOs:                          52
+ Number of bonded IOBs:                  52  out of    400    13%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               28  out of    325     8%  
+    Number using Block RAM only:         28
+ Number of BUFG/BUFGCTRLs:                4  out of     32    12%  
+ Number of DSP48E1s:                     15  out of    600     2%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------+---------------------------------------+-------+
+Clock Signal                              | Clock buffer(FF name)                 | Load  |
+------------------------------------------+---------------------------------------+-------+
+clk                                       | BUFGP                                 | 139   |
+clkdiv_1                                  | BUFG                                  | 85    |
+clkdiv_15                                 | BUFG                                  | 95    |
+Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<6>| NONE(Madd_addr[9]_GND_1_o_add_16_OUT1)| 7     |
+clkdiv_3                                  | BUFG                                  | 108   |
+------------------------------------------+---------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                       | Buffer(FF name)                                                                                                                                  | Load  |
+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+beanRef/N1(beanRef/XST_GND:G)        | NONE(beanRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)    | 10    |
+innerBoxRef/N1(innerBoxRef/XST_GND:G)| NONE(innerBoxRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)| 10    |
+mapRef/N1(mapRef/XST_GND:G)          | NONE(mapRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)     | 10    |
+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 7.827ns (Maximum Frequency: 127.762MHz)
+   Minimum input arrival time before clock: 7.683ns
+   Maximum output required time after clock: 2.441ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.820ns (frequency: 127.883MHz)
+  Total number of paths / destination ports: 197247 / 269
+-------------------------------------------------------------------------
+Delay:               7.820ns (Levels of Logic = 5)
+  Source:            initBxd/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram (RAM)
+  Destination:       innerBoxRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: initBxd/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram to innerBoxRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18E1:CLKARDCLK->DOADO8    1   1.800   0.495  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram (douta<2>)
+     end scope: 'initBxd:douta<2>'
+     LUT6:I3->O            5   0.043   0.428  isBox2 (isBox1)
+     LUT6:I4->O           11   0.043   0.395  isBox3 (Mmult_iBoxPicInd[1]_PWR_1_o_MuLt_624_OUT_Madd_lut<4>)
+     DSP48E1:B1->PCOUT47    1   2.749   0.000  Maddsub_iBoxPicInd[1]_PWR_1_o_MuLt_625_OUT (Maddsub_iBoxPicInd[1]_PWR_1_o_MuLt_625_OUT_PCOUT_to_Madd_n0638_Madd1_PCIN_47)
+     DSP48E1:PCIN47->P13    7   1.077   0.373  Madd_n0638_Madd1 (n0638<13>)
+     begin scope: 'innerBoxRef:addra<13>'
+     RAMB18E1:ADDRARDADDR13        0.416          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                      7.820ns (6.128ns logic, 1.692ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_1'
+  Clock period: 7.827ns (frequency: 127.762MHz)
+  Total number of paths / destination ports: 21575136 / 132
+-------------------------------------------------------------------------
+Delay:               7.827ns (Levels of Logic = 16)
+  Source:            v0/row_addr_0_1 (FF)
+  Destination:       vga_data_5 (FF)
+  Source Clock:      clkdiv_1 rising
+  Destination Clock: clkdiv_1 rising
+
+  Data Path: v0/row_addr_0_1 to vga_data_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.236   0.603  v0/row_addr_0_1 (v0/row_addr_0_1)
+     LUT5:I0->O            4   0.043   0.422  Msub_y_addr_xor<5>111 (Msub_y_addr_xor<5>11)
+     LUT5:I3->O            5   0.043   0.636  Msub_y_addr_xor<7>11 (y_addr<7>)
+     LUT6:I0->O            1   0.043   0.000  y_addr[8]_PWR_1_o_div_597/n0337<8>13_G (N277)
+     MUXF7:I1->O           6   0.178   0.378  y_addr[8]_PWR_1_o_div_597/n0337<8>13 (y_addr[8]_PWR_1_o_div_597/n0337<8>1)
+     LUT6:I5->O            2   0.043   0.355  Madd_n0626_Madd_lut<1>31 (Madd_n0626_Madd_lut<1>3)
+     LUT6:I5->O            3   0.043   0.362  Madd_n0626_Madd_lut<1>2 (Madd_n0626_Madd_lut<1>2)
+     LUT6:I5->O           21   0.043   0.450  Madd_n0626_Madd_lut<1>4 (Madd_n0626_Madd_lut<1>)
+     MUXF7:S->O            9   0.234   0.395  y_addr[8]_PWR_1_o_mod_594/Mmux_a[0]_a[8]_MUX_360_o13 (y_addr[8]_PWR_1_o_mod_594/Madd_a[8]_GND_23_o_add_19_OUT_Madd_Madd_lut<3>)
+     LUT6:I5->O            1   0.043   0.350  y_addr[8]_PWR_1_o_mod_594/Mmux_o611_SW0 (N200)
+     LUT6:I5->O           23   0.043   0.469  y_addr[8]_PWR_1_o_mod_594/Mmux_o62 (Mmult_y_off[5]_PWR_1_o_MuLt_602_OUT_Madd1_lut<8>)
+     LUT5:I4->O            1   0.043   0.405  Madd_n0636_Madd_xor<2>11_SW1 (N205)
+     LUT6:I4->O            1   0.043   0.522  GND_1_o_GND_1_o_AND_413_o1 (GND_1_o_GND_1_o_AND_413_o1)
+     LUT6:I2->O            8   0.043   0.389  GND_1_o_GND_1_o_AND_413_o3 (GND_1_o_GND_1_o_AND_413_o)
+     LUT4:I3->O           10   0.043   0.400  Mmux_mapOut[11]_beanOut[11]_mux_667_OUT811 (Mmux_mapOut[11]_beanOut[11]_mux_667_OUT81)
+     LUT6:I5->O            7   0.043   0.439  _n2936 (_n2936)
+     LUT2:I0->O            1   0.043   0.000  vga_data_5_glue_set (vga_data_5_glue_set)
+     FDR:D                    -0.000          vga_data_5
+    ----------------------------------------
+    Total                      7.827ns (1.250ns logic, 6.577ns route)
+                                       (16.0% logic, 84.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_15'
+  Clock period: 2.818ns (frequency: 354.843MHz)
+  Total number of paths / destination ports: 686 / 180
+-------------------------------------------------------------------------
+Delay:               2.818ns (Levels of Logic = 3)
+  Source:            k0/keyLineX_2 (FF)
+  Destination:       k0/rdyFilter/O (FF)
+  Source Clock:      clkdiv_15 rising
+  Destination Clock: clkdiv_15 rising
+
+  Data Path: k0/keyLineX_2 to k0/rdyFilter/O
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             21   0.236   0.606  k0/keyLineX_2 (k0/keyLineX_2)
+     LUT4:I1->O            1   0.043   0.613  k0/ready_raw_SW0 (N60)
+     LUT6:I0->O            6   0.043   0.631  k0/ready_raw (k0/ready_raw)
+     LUT5:I0->O            1   0.043   0.339  k0/rdyFilter/_n00231 (k0/rdyFilter/_n0023)
+     FDR:R                     0.264          k0/rdyFilter/O
+    ----------------------------------------
+    Total                      2.818ns (0.629ns logic, 2.189ns route)
+                                       (22.3% logic, 77.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_3'
+  Clock period: 2.637ns (frequency: 379.204MHz)
+  Total number of paths / destination ports: 11148 / 216
+-------------------------------------------------------------------------
+Delay:               2.637ns (Levels of Logic = 3)
+  Source:            ledDevice/shift_7 (FF)
+  Destination:       ledDevice/shift_16 (FF)
+  Source Clock:      clkdiv_3 rising
+  Destination Clock: clkdiv_3 rising
+
+  Data Path: ledDevice/shift_7 to ledDevice/shift_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.236   0.618  ledDevice/shift_7 (ledDevice/shift_7)
+     LUT6:I0->O            2   0.043   0.618  ledDevice/out11 (ledDevice/out1)
+     LUT6:I0->O           18   0.043   0.445  ledDevice/out13 (ledDevice/sckEn)
+     LUT3:I2->O           17   0.043   0.429  ledDevice/_n0033_inv1 (ledDevice/_n0033_inv)
+     FDE:CE                    0.161          ledDevice/shift_0
+    ----------------------------------------
+    Total                      2.637ns (0.526ns logic, 2.111ns route)
+                                       (19.9% logic, 80.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 10370098 / 377
+-------------------------------------------------------------------------
+Offset:              7.683ns (Levels of Logic = 9)
+  Source:            SW<13> (PAD)
+  Destination:       bleftRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram (RAM)
+  Destination Clock: clk rising
+
+  Data Path: SW<13> to bleftRef/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            70   0.000   0.632  SW_13_IBUF (Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<0>)
+     LUT3:I0->O            2   0.043   0.344  Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<5>1 (Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<5>)
+     DSP48E1:B5->P9        3   1.465   0.351  Madd_n1134[11:0]_Madd1 (n1134[11:0]<9>)
+     DSP48E1:C9->PCOUT47    1   1.432   0.000  Madd_n1148_Madd1 (Madd_n1148_Madd1_PCOUT_to_Maddsub_by[3]_PWR_1_o_MuLt_22_OUT_PCIN_47)
+     DSP48E1:PCIN47->P4   17   1.077   0.585  Maddsub_by[3]_PWR_1_o_MuLt_22_OUT (Madd_baddr[9]_GND_1_o_add_27_OUT_lut<4>)
+     LUT3:I0->O            1   0.043   0.350  Msub_GND_1_o_GND_1_o_sub_25_OUT<9:0>_cy<7>1_SW0 (N32)
+     LUT6:I5->O            2   0.043   0.355  Msub_GND_1_o_GND_1_o_sub_25_OUT<9:0>_cy<7>1 (Msub_GND_1_o_GND_1_o_sub_25_OUT<9:0>_cy<7>)
+     LUT3:I2->O            1   0.043   0.339  Msub_GND_1_o_GND_1_o_sub_25_OUT<9:0>_xor<9>11 (GND_1_o_GND_1_o_sub_25_OUT<9>)
+     begin scope: 'bleftRef:addra<9>'
+     RAMB18E1:ADDRARDADDR13        0.416          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                      7.683ns (4.726ns logic, 2.957ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkdiv_15'
+  Total number of paths / destination ports: 153 / 153
+-------------------------------------------------------------------------
+Offset:              1.386ns (Levels of Logic = 2)
+  Source:            SW<13> (PAD)
+  Destination:       a0<13>/O (FF)
+  Destination Clock: clkdiv_15 rising
+
+  Data Path: SW<13> to a0<13>/O
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            70   0.000   0.740  SW_13_IBUF (Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<0>)
+     LUT5:I0->O            1   0.043   0.339  a0<13>/_n00231 (a0<13>/_n0023)
+     FDR:R                     0.264          a0<13>/O
+    ----------------------------------------
+    Total                      1.386ns (0.307ns logic, 1.079ns route)
+                                       (22.1% logic, 77.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkdiv_3'
+  Total number of paths / destination ports: 21 / 7
+-------------------------------------------------------------------------
+Offset:              0.701ns (Levels of Logic = 2)
+  Source:            SW<14> (PAD)
+  Destination:       segDevice/U2/shift_63 (FF)
+  Destination Clock: clkdiv_3 rising
+
+  Data Path: SW<14> to segDevice/U2/shift_63
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            66   0.000   0.658  SW_14_IBUF (Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<8>)
+     LUT5:I1->O            1   0.043   0.000  segDevice/U2/mux5911 (segDevice/U2/shift[64]_shift[63]_mux_6_OUT<63>)
+     FDE:D                    -0.000          segDevice/U2/shift_63
+    ----------------------------------------
+    Total                      0.701ns (0.043ns logic, 0.658ns route)
+                                       (6.1% logic, 93.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_1'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              0.575ns (Levels of Logic = 1)
+  Source:            v0/r_3 (FF)
+  Destination:       r<3> (PAD)
+  Source Clock:      clkdiv_1 rising
+
+  Data Path: v0/r_3 to r<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.236   0.339  v0/r_3 (v0/r_3)
+     OBUF:I->O                 0.000          r_3_OBUF (r<3>)
+    ----------------------------------------
+    Total                      0.575ns (0.236ns logic, 0.339ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_15'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              1.069ns (Levels of Logic = 2)
+  Source:            k0/state (FF)
+  Destination:       BTN_Y<3> (PAD)
+  Source Clock:      clkdiv_15 rising
+
+  Data Path: k0/state to BTN_Y<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              11   0.236   0.395  k0/state (k0/state)
+     INV:I->O              9   0.054   0.384  k0/state_inv1_INV_0 (k0/state_inv)
+     IOBUF:T->IO               0.000          BTN_Y_3_IOBUF (BTN_Y<3>)
+    ----------------------------------------
+    Total                      1.069ns (0.290ns logic, 0.779ns route)
+                                       (27.1% logic, 72.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkdiv_3'
+  Total number of paths / destination ports: 84 / 6
+-------------------------------------------------------------------------
+Offset:              2.441ns (Levels of Logic = 4)
+  Source:            ledDevice/shift_7 (FF)
+  Destination:       LED_CLK (PAD)
+  Source Clock:      clkdiv_3 rising
+
+  Data Path: ledDevice/shift_7 to LED_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.236   0.618  ledDevice/shift_7 (ledDevice/shift_7)
+     LUT6:I0->O            2   0.043   0.618  ledDevice/out11 (ledDevice/out1)
+     LUT6:I0->O           18   0.043   0.500  ledDevice/out13 (ledDevice/sckEn)
+     LUT2:I0->O            1   0.043   0.339  ledDevice/sck1 (LED_CLK_OBUF)
+     OBUF:I->O                 0.000          LED_CLK_OBUF (LED_CLK)
+    ----------------------------------------
+    Total                      2.441ns (0.365ns logic, 2.076ns route)
+                                       (15.0% logic, 85.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.980ns (Levels of Logic = 2)
+  Source:            clkdiv_3 (FF)
+  Destination:       SEGLED_CLK (PAD)
+  Source Clock:      clk rising
+
+  Data Path: clkdiv_3 to SEGLED_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.236   0.362  clkdiv_3 (clkdiv_3)
+     LUT2:I1->O            1   0.043   0.339  segDevice/U2/sck1 (SEGLED_CLK_OBUF)
+     OBUF:I->O                 0.000          SEGLED_CLK_OBUF (SEGLED_CLK)
+    ----------------------------------------
+    Total                      0.980ns (0.279ns logic, 0.701ns route)
+                                       (28.5% logic, 71.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+------------------------------------------+---------+---------+---------+---------+
+                                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------+---------+---------+---------+---------+
+Madd_initaddr[9]_GND_1_o_add_30_OUT_lut<6>|    6.591|         |         |         |
+clk                                       |    7.820|         |         |         |
+clkdiv_1                                  |   10.478|         |         |         |
+clkdiv_15                                 |    5.621|         |         |         |
+------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clkdiv_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.306|         |         |         |
+clkdiv_1       |    7.827|         |         |         |
+clkdiv_15      |    1.354|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clkdiv_15
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkdiv_15      |    2.818|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clkdiv_3
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.127|         |         |         |
+clkdiv_15      |    0.701|         |         |         |
+clkdiv_3       |    2.637|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 36.00 secs
+Total CPU time to Xst completion: 36.48 secs
+ 
+--> 
+
+Total memory usage is 4688624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  140 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

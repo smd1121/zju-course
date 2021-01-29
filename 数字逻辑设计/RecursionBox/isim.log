@@ -1,0 +1,107 @@
+ISim log file
+Running: F:\_TOT_FILES\ZJU\A_1_Course\2_1\Digital_Logic_Design\project\RecursionBox\RecursionBox\Debug1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/leftRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/rightRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/upRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/downRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/bleftRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/brightRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/bupRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/bdownRef/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initXi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initYi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initBxi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initByi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initXd/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initYd/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initBxd/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initByd/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initLi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initRi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initUi/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING:  For instance uut/initDI/, width 10 of formal port addra is not equal to width 32 of actual constant.
+WARNING: File "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" Line 69.  For instance Debug1/uut/, width 10 of formal port debugaddr is not equal to width 1 of actual signal debugaddr.
+WARNING: File "F:/_TOT_FILES/ZJU/A_1_Course/2_1/Digital_Logic_Design/project/RecursionBox/RecursionBox/Debug1.v" Line 72.  For instance Debug1/uut/, width 12 of formal port debugvgad is not equal to width 1 of actual signal debugvgad.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.leftRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.rightRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.upRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.downRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.bleftRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.brightRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.bupRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.bdownRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initXi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initYi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initBxi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initByi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initXd.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initYd.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initBxd.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initByd.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initLi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initRi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initUi.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.initDI.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.beanRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.mapRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.typeRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.innerTyRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module Debug1.uut.innerBoxRef.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

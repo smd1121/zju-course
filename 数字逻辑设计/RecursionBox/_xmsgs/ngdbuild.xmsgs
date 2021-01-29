@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerTyRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerTyRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerTyRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerTyRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerTyRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">typeRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">typeRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">typeRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">typeRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">typeRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initDI/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initDI/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initDI/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initDI/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initDI/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initUi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initUi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initUi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initUi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initUi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initRi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initRi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initRi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initRi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initRi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initLi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initLi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initLi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initLi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initLi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByd/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByd/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByd/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByd/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByd/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxd/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxd/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxd/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxd/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxd/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYd/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYd/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYd/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYd/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYd/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXd/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXd/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXd/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXd/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXd/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initByi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initBxi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initYi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXi/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXi/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXi/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXi/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">initXi/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bdownRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bdownRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bdownRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bdownRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bdownRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bupRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bupRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bupRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bupRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bupRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">brightRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">brightRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">brightRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">brightRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">brightRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bleftRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bleftRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bleftRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bleftRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">bleftRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">downRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">downRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">downRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">downRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">downRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">upRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">upRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">upRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">upRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">upRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">rightRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">rightRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">rightRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">rightRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">rightRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">leftRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">leftRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">leftRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">leftRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">leftRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;11&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;10&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;9&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;8&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;7&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;6&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;5&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;4&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">beanRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;11&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;10&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;9&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;8&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;7&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;6&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;5&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;4&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">mapRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/wea&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;11&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;10&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;9&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;8&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;7&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;6&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;5&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;4&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;3&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;2&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;1&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">innerBoxRef/dina&lt;0&gt;</arg>&apos; has no driver
+</msg>
+
+</messages>
+
