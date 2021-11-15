@@ -1,0 +1,9 @@
+case VK_BACK:
+			if( len > 0 ) {
+				if (textbuf[len-1] < 0) --len; //汉字占2个字节且每个字节最高位都为1 by xdq @20210517
+				textbuf[--len] = 0; //ASCII字符回退一个字节，汉字回退2个字节 by xdq @20210517 
+				textChanged = 1;
+			}
+			gs_UIState.keyPress = 0;
+			break;
+		}

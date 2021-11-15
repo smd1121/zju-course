@@ -1,0 +1,73 @@
+# Project: myGame
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ../compiled/exceptio.o ../compiled/genlib.o ../compiled/graphics.o ../compiled/linkedlist.o ../compiled/random.o ../compiled/simpio.o ../compiled/strlib.o ../compiled/imgui.o ../compiled/shape.o ../compiled/timer.o ../compiled/keyboardEvent.o ../compiled/mouseEvent.o ../compiled/main.o ../compiled/button.o ../compiled/charEvent.o ../compiled/files.o
+LINKOBJ  = ../compiled/exceptio.o ../compiled/genlib.o ../compiled/graphics.o ../compiled/linkedlist.o ../compiled/random.o ../compiled/simpio.o ../compiled/strlib.o ../compiled/imgui.o ../compiled/shape.o ../compiled/timer.o ../compiled/keyboardEvent.o ../compiled/mouseEvent.o ../compiled/main.o ../compiled/button.o ../compiled/charEvent.o ../compiled/files.o
+LIBS     = -L"D:/Software/Dev-Cpp/MinGW32/lib" -L"D:/Software/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -mwindows -g3
+INCS     = -I"D:/Software/Dev-Cpp/MinGW32/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include" -I"../../libgraphics" -I"../../simpleGUI" -I"../1-drawsomething"
+CXXINCS  = -I"D:/Software/Dev-Cpp/MinGW32/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include" -I"D:/Software/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -I"../../libgraphics" -I"../../simpleGUI" -I"../1-drawsomething"
+BIN      = ../compiled/1-drawsomething.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+../compiled/exceptio.o: ../../libgraphics/exceptio.c
+	$(CC) -c ../../libgraphics/exceptio.c -o ../compiled/exceptio.o $(CFLAGS)
+
+../compiled/genlib.o: ../../libgraphics/genlib.c
+	$(CC) -c ../../libgraphics/genlib.c -o ../compiled/genlib.o $(CFLAGS)
+
+../compiled/graphics.o: ../../libgraphics/graphics.c
+	$(CC) -c ../../libgraphics/graphics.c -o ../compiled/graphics.o $(CFLAGS)
+
+../compiled/linkedlist.o: ../../libgraphics/linkedlist.c
+	$(CC) -c ../../libgraphics/linkedlist.c -o ../compiled/linkedlist.o $(CFLAGS)
+
+../compiled/random.o: ../../libgraphics/random.c
+	$(CC) -c ../../libgraphics/random.c -o ../compiled/random.o $(CFLAGS)
+
+../compiled/simpio.o: ../../libgraphics/simpio.c
+	$(CC) -c ../../libgraphics/simpio.c -o ../compiled/simpio.o $(CFLAGS)
+
+../compiled/strlib.o: ../../libgraphics/strlib.c
+	$(CC) -c ../../libgraphics/strlib.c -o ../compiled/strlib.o $(CFLAGS)
+
+../compiled/imgui.o: ../../simpleGUI/imgui.c
+	$(CC) -c ../../simpleGUI/imgui.c -o ../compiled/imgui.o $(CFLAGS)
+
+../compiled/shape.o: shape.c
+	$(CC) -c shape.c -o ../compiled/shape.o $(CFLAGS)
+
+../compiled/timer.o: timer.c
+	$(CC) -c timer.c -o ../compiled/timer.o $(CFLAGS)
+
+../compiled/keyboardEvent.o: keyboardEvent.c
+	$(CC) -c keyboardEvent.c -o ../compiled/keyboardEvent.o $(CFLAGS)
+
+../compiled/mouseEvent.o: mouseEvent.c
+	$(CC) -c mouseEvent.c -o ../compiled/mouseEvent.o $(CFLAGS)
+
+../compiled/main.o: main.c
+	$(CC) -c main.c -o ../compiled/main.o $(CFLAGS)
+
+../compiled/button.o: button.c
+	$(CC) -c button.c -o ../compiled/button.o $(CFLAGS)
+
+../compiled/charEvent.o: charEvent.c
+	$(CC) -c charEvent.c -o ../compiled/charEvent.o $(CFLAGS)
+
+../compiled/files.o: files.c
+	$(CC) -c files.c -o ../compiled/files.o $(CFLAGS)
