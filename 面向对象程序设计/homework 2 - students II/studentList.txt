@@ -1,0 +1,11 @@
+no        name      Chinese   Maths     English   Chemistry Physics   Art       History   average
+1         K.Weng    5         5         5         -         -         -         -         5
+2         T.Dixon   4         -         -         3         -         -         -         3.5
+3         V.Chu     -         -         3         -         4         -         -         3.5
+4         L.Tson    -         -         -         -         -         -         -         -
+5         L.Lee     -         -         3         -         -         4         -         3.5
+6         I.Young   5         -         -         2         4         -         -         3.66667
+7         K.Hiro    1         -         -         -         -         2         4         2.33333
+          average   3.8       5         3.7       2.5       4         3         4         
+          min       1         5         3         2         4         2         4         
+          max       5         5         5         3         4         4         4         

@@ -1,0 +1,7 @@
+K.Weng  Chinese 5 Maths     5  English 5
+T.Dixon Chinese 4 Chemistry 3
+V.Chu   English 3 Physics   4
+L.Tson  
+L.Lee   English 3 Art       4
+I.Young Physics 4 Chemistry 2  Chinese 5
+K.Hiro  History 4 Art       2  Chinese 1

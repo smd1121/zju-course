@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Adventure.cpp
+  Castle.cpp
+f:\_tot_files\zju\a_1_course\1_2\oop\homework\homework 3 - adventure\castle.cpp(39): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  room.cpp
+  正在生成代码...
+  Adventure.vcxproj -> F:\_TOT_FILES\ZJU\A_1_Course\1_2\oop\HOMEWORK\homework 3 - adventure\Debug\Adventure.exe
