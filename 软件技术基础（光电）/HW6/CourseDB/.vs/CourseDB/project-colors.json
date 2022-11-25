@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac3412ad-cfb7-4ba8-b990-c8ec6535611c": {
+      "ProjectGuid": "ac3412ad-cfb7-4ba8-b990-c8ec6535611c",
+      "DisplayName": "CourseDB",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

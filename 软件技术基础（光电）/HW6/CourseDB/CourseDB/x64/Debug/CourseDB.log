@@ -1,0 +1,4 @@
+﻿  courseDB.cpp
+F:\GitFiles\CourseData\3_1\Fund_of_Computer_Software\HW6\CourseDB\CourseDB\DBHelper.h(22,45): warning C4227: 使用了记时错误: 忽略引用上的限定符
+F:\GitFiles\CourseData\3_1\Fund_of_Computer_Software\HW6\CourseDB\CourseDB\courseDB.cpp(278,6): warning C4804: “<”: 在操作中使用类型“bool”不安全
+  CourseDB.vcxproj -> F:\GitFiles\CourseData\3_1\Fund_of_Computer_Software\HW6\CourseDB\x64\Debug\CourseDB.exe
