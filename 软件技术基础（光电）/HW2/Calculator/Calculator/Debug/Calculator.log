@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  Calculator.cpp
+  CalculatorDlg.cpp
+  myCalculator.cpp
+f:\gitfiles\coursedata\3_1\fund_of_computer_software\3190105871解雲暄_hw2\calculator\calculator\mycalculator.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  Calculator.vcxproj -> F:\GitFiles\CourseData\3_1\Fund_of_Computer_Software\3190105871解雲暄_HW2\Calculator\Debug\Calculator.exe
